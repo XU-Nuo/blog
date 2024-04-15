@@ -38,5 +38,6 @@ export default withPwa(defineConfig({
         pattern: 'https://github.com/XU-Nuo/blog/blob/main/:path',
         text: 'View source on GitHub'
     }
-  }
+  },
+  pwa: {}
 }))
