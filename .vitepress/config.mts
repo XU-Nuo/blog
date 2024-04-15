@@ -35,8 +35,8 @@ export default withPwa(defineConfig({
     },
 
     editLink: {
-        pattern: 'https://github.com/XU-Nuo/blog/:path',
-        text: 'Edit this page on GitHub'
+        pattern: 'https://github.com/XU-Nuo/blog/blob/main/:path',
+        text: 'View source on GitHub'
     }
   }
 }))
