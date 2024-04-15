@@ -5,6 +5,9 @@ export default defineConfig({
   title: "XU-Nuo's Blog",
   description: "A VitePress Site",
   base: "/blog/",
+  markdown: {
+    math: true
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
