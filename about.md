@@ -11,7 +11,7 @@ import {
 
 const members = [
   {
-    avatar: '/blog/avatar.png',
+    avatar: '/blog/avatar_cow.jpg',
     name: '🐮子荣',
     title: '主笔人',
     links: [
@@ -19,7 +19,7 @@ const members = [
     ]
   },
   {
-    avatar: '/blog/avatar2.png',
+    avatar: '/blog/avatar_tiger.jpg',
     name: ' 座山🐯',
     title: '冠名商与客座嘉宾',
     links: [

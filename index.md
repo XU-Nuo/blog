@@ -7,7 +7,7 @@ hero:
   text: "\"一生这么长, 不写点什么感觉很浪费啊\""
   tagline: 由 座山🐯 独家冠名的写作空间
   image:
-    src: /avatar.png
+    src: /hero.png
     alt: avatar
   actions:
     - theme: brand
@@ -20,7 +20,7 @@ hero:
       text: 技术
       link: /about
     - theme: alt
-      text: 关于我
+      text: 关于本站
       link: /about
 
 features:
