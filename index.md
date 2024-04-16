@@ -3,29 +3,30 @@
 layout: home
 
 hero:
-  name: "XU-Nuo's Blog"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "🐮子荣的想法"
+  text: "\"一生这么长, 不写点什么感觉很浪费啊\""
+  tagline: 由 座山🐯 独家冠名的写作空间
   image:
     src: /avatar.png
     alt: avatar
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 影音
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 游记
       link: /api-examples
     - theme: alt
-      text: About
+      text: 技术
+      link: /about
+    - theme: alt
+      text: 关于我
       link: /about
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🐮子荣
+    details: 主笔人
+  - title:  座山🐯
+    details: 冠名商与客座嘉宾
 ---
 
