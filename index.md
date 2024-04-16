@@ -6,6 +6,9 @@ hero:
   name: "XU-Nuo's Blog"
   text: "A VitePress Site"
   tagline: My great project tagline
+  image:
+    src: /avatar.png
+    alt: avatar
   actions:
     - theme: brand
       text: Markdown Examples
