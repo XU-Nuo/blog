@@ -6,6 +6,12 @@ export default withPwa(defineConfig({
   title: "XU-Nuo's Blog",
   description: "A VitePress Site",
   base: "/blog/",
+  head: [
+    [
+      'link',
+      { rel: 'icon', href: '/avatar.png' }
+    ],
+  ],
   markdown: {
     math: true
   },
