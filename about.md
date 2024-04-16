@@ -19,11 +19,11 @@ const members = [
     ]
   },
   {
-    avatar: '/blog/avatar.png',
+    avatar: '/blog/avatar2.png',
     name: ' 座山🐯',
     title: '冠名商与客座嘉宾',
     links: [
-      { icon: 'github', link: 'https://github.com/XU-Nuo' },
+    //   { icon: 'github', link: 'https://github.com/XU-Nuo' },
     ]
   }
 ]
