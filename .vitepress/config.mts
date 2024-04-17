@@ -3,13 +3,21 @@ import { withPwa } from '@vite-pwa/vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(defineConfig({
-  title: "XU-Nuo's Blog",
-  description: "A VitePress Site",
+  title: "🐮子荣的想法",
+  description: "由 座山🐯 独家冠名的写作空间",
   base: "/blog/",
   head: [
     [
       'link',
-      { rel: 'icon', href: '/avatar.png' }
+      { rel: 'icon', href: '/favicon.ico' }
+    ],
+    [
+        'link',
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png'}
+      ],
+    [
+      'meta',
+      { rel: 'theme-color', href: '#ffffff'}
     ],
   ],
   markdown: {
@@ -33,7 +41,7 @@ export default withPwa(defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/XU-Nuo/blog' }
+      { icon: 'github', link: 'https://github.com/XU-Nuo' }
     ],
 
     search: {
@@ -45,5 +53,30 @@ export default withPwa(defineConfig({
         text: 'View source on GitHub'
     }
   },
-  pwa: {}
+  pwa: {
+    registerType: 'autoUpdate',
+    manifest: {
+        name: '🐮子荣的想法',
+        short_name: '🐮',
+        theme_color: '#ffffff',
+        icons: [
+          {
+            src: 'pwa-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: 'pwa-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+          {
+            src: 'pwa-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+        ],
+      }
+  }
 }))
