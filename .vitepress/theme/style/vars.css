@@ -5,3 +5,7 @@
  :root {
     --vp-c-brand: #080b55;
  }
+
+ .dark {
+    --vp-c-brand: #67bd7a;
+ }

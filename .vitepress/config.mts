@@ -15,10 +15,10 @@ export default withPwa(defineConfig({
         'link',
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png'}
       ],
-    [
-      'meta',
-      { rel: 'theme-color', href: '#ffffff'}
-    ],
+    // [
+    //   'meta',
+    //   { rel: 'theme-color', href: '#ffffff'}
+    // ],
   ],
   markdown: {
     math: true
@@ -57,8 +57,8 @@ export default withPwa(defineConfig({
     registerType: 'autoUpdate',
     manifest: {
         name: '🐮子荣的想法',
-        short_name: '🐮',
-        theme_color: '#ffffff',
+        short_name: '🐮子荣的想法',
+        // theme_color: '#ffffff',
         icons: [
           {
             src: 'pwa-192x192.png',
