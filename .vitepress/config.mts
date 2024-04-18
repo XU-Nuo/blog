@@ -58,7 +58,7 @@ export default withPwa(defineConfig({
     manifest: {
         name: '🐮子荣的想法',
         short_name: '🐮子荣的想法',
-        // theme_color: '#ffffff',
+        theme_color: '#ffffff',
         icons: [
           {
             src: 'pwa-192x192.png',
