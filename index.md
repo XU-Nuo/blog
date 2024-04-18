@@ -14,6 +14,9 @@ hero:
       text: 影音
       link: /markdown-examples
     - theme: alt
+      text: 吃饭
+      link: /美食/我们俩的吃饭饭合集
+    - theme: alt
       text: 游记
       link: /api-examples
     - theme: alt
